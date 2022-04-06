@@ -3,8 +3,8 @@ from datetime import date
 from yahoo_fin import stock_info as si
 import datetime
 from ib_insync import *
-import calendar
-import requests
+# import calendar
+# import requests
 
 ib = IB()  
 ib.connect('127.0.0.1', 7496, clientId=1)
