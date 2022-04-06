@@ -51,7 +51,7 @@ while True:
             ib.sleep(1)
             ticker.remove(x)
             break
-#PUTS CONTRACT
+#PUTS CONTRACT test
         if stockprice < x[2]:
             #Get options price price----------
             #execute order
